@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[DEPT : Testing]]>
+    </line>
+    <line>
+      <![CDATA[ID : 123222]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2390" started-at="2022-01-27T11:43:32 IST" finished-at="2022-01-27T11:43:34 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="TC_AT_002.employeeID()[pri:0, instance:testNGAdvance.TC_AT_002@6737fd8f]" name="employeeID" class="testNGAdvance.TC_AT_002"/>
+        <method signature="TC_AT_004.department()[pri:4, instance:testNGAdvance.TC_AT_004@1efed156]" name="department" class="testNGAdvance.TC_AT_004"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="2390" started-at="2022-01-27T11:43:32 IST" finished-at="2022-01-27T11:43:34 IST">
+      <class name="testNGAdvance.TC_AT_004">
+        <test-method status="PASS" signature="department()[pri:4, instance:testNGAdvance.TC_AT_004@1efed156]" name="department" duration-ms="32" started-at="2022-01-27T11:43:32 IST" finished-at="2022-01-27T11:43:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[DEPT : Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- department -->
+      </class> <!-- testNGAdvance.TC_AT_004 -->
+      <class name="testNGAdvance.TC_AT_002">
+        <test-method status="PASS" signature="employeeID()[pri:0, instance:testNGAdvance.TC_AT_002@6737fd8f]" name="employeeID" duration-ms="9" started-at="2022-01-27T11:43:32 IST" finished-at="2022-01-27T11:43:32 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ID : 123222]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- employeeID -->
+      </class> <!-- testNGAdvance.TC_AT_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

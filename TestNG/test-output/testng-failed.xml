@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testNGAdvance.TC_AT_003">
+        <methods>
+          <include name="salary"/>
+        </methods>
+      </class> <!-- testNGAdvance.TC_AT_003 -->
+      <class name="testNGAdvance.TC_AT_004">
+        <methods>
+          <include name="department"/>
+        </methods>
+      </class> <!-- testNGAdvance.TC_AT_004 -->
+      <class name="testNGAdvance.TC_AT_002">
+        <methods>
+          <include name="employeeID"/>
+        </methods>
+      </class> <!-- testNGAdvance.TC_AT_002 -->
+      <class name="testNGAdvance.TC_AT_001">
+        <methods>
+          <include name="employeename"/>
+        </methods>
+      </class> <!-- testNGAdvance.TC_AT_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
