@@ -1,3 +1,7 @@
+
+
+
+
 package testNGAdvance;
 
 import java.util.concurrent.TimeUnit;
@@ -7,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class TC_AT_001 {
+public class TC_AT_001test {
 	
 	@Test
 	public void employeename() {
